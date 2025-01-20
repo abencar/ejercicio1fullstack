@@ -1,0 +1,59 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #a5ece2;
+}
+
+.container{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > * {
+  margin: 20px 0;
+}
+
+#title{
+  font-size: 2em;
+  color: #3f6790;
+}
+
+.deleteButton{
+  border-radius: 50%;
+  background-color: #e9c835;
+}
+
+.deleteButton:hover{
+  opacity: 0.5;
+}
+
+.form{
+  border-radius: 20%;
+  background-color: #ffee00;
+  border-style: solid;
+  padding: 3px;
+}
+
+.form:hover{
+  background-color: #ff0707;
+}
+
+
+#add{
+  background-color: #ff0707;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+#add:hover{
+  background-color: azure;
+}
+
+@media screen and (max-width: 600px){
+  .form{
+    width: 20%;
+  }
+}
